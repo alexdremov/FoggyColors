@@ -11,7 +11,6 @@
 		25F949CB27B5A19900F43529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F949CA27B5A19900F43529 /* ContentView.swift */; };
 		25F949CD27B5A19A00F43529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F949CC27B5A19A00F43529 /* Assets.xcassets */; };
 		25F949D027B5A19A00F43529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F949CF27B5A19A00F43529 /* Preview Assets.xcassets */; };
-		25F949D827B5AD7500F43529 /* Colorful in Frameworks */ = {isa = PBXBuildFile; productRef = 25F949D727B5AD7500F43529 /* Colorful */; };
 		512FA407353696249E7B0A13 /* Pods_FoggyExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F29A0011E6AF20AA3344EA /* Pods_FoggyExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25F949D827B5AD7500F43529 /* Colorful in Frameworks */,
 				512FA407353696249E7B0A13 /* Pods_FoggyExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,7 +110,6 @@
 			);
 			name = FoggyExample;
 			packageProductDependencies = (
-				25F949D727B5AD7500F43529 /* Colorful */,
 			);
 			productName = FoggyExample;
 			productReference = 25F949C527B5A19900F43529 /* FoggyExample.app */;
@@ -143,7 +140,6 @@
 			);
 			mainGroup = 25F949BC27B5A19900F43529;
 			packageReferences = (
-				25F949D627B5AD7500F43529 /* XCRemoteSwiftPackageReference "Colorful" */,
 			);
 			productRefGroup = 25F949C627B5A19900F43529 /* Products */;
 			projectDirPath = "";
@@ -419,25 +415,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		25F949D627B5AD7500F43529 /* XCRemoteSwiftPackageReference "Colorful" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Lakr233/Colorful";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		25F949D727B5AD7500F43529 /* Colorful */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 25F949D627B5AD7500F43529 /* XCRemoteSwiftPackageReference "Colorful" */;
-			productName = Colorful;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 25F949BD27B5A19900F43529 /* Project object */;
 }
