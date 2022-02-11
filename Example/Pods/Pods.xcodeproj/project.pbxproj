@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE1CD8E1791C46E1C920C3970706070 /* FoggyColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B9D3AD31CC3E8B08E2E5C1DD8A3A8 /* FoggyColors-dummy.m */; };
+		4ED744F5D7BB7A484D4D7E9892886DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */; };
+		6375F90CA949D484B2097BB38431E1F1 /* Pods-FoggyExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 386B8CE45FF5EE5BB34F484D1B7D2C6A /* Pods-FoggyExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71EE0A81893A67383B9CCC24656B39C8 /* FoggyColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5181F952F47A3C06C577AD38E6E83D02 /* FoggyColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9709C791BE29186A277C3DEDB82EC07 /* PointRandomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5E80F4770BCBAB07579CFBA1215F77 /* PointRandomization.swift */; };
+		CD37F23C79D2FB759236A840B8B0AEAF /* Pods-FoggyExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA70A960575199C0BD9C15719058B6F /* Pods-FoggyExample-dummy.m */; };
+		D2D1E5071A3A5BCEF7CDF6DCCF948BF2 /* FoggyColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F95C2134B2FFBF52B9D0707C6050F6 /* FoggyColorsView.swift */; };
+		E6CC9731D33840D42BCDBE9343AEBE7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */; };
+		F31E81A0E2FE6E9EEFC21153E6F44D96 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21344DE58C176B6D7D3051DE9FEC46E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C338B923167BD9A90D04157F31BA511;
+			remoteInfo = FoggyColors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063019F77BA089B21988B31618C2EDCD /* Pods-FoggyExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoggyExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		269F76590C670559E1DCDEB096F14F49 /* Pods-FoggyExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoggyExample-Info.plist"; sourceTree = "<group>"; };
+		33B029E13E0CCDE6B28CF5C41229B8CC /* FoggyColors-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FoggyColors-Info.plist"; sourceTree = "<group>"; };
+		386B8CE45FF5EE5BB34F484D1B7D2C6A /* Pods-FoggyExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoggyExample-umbrella.h"; sourceTree = "<group>"; };
+		40631DC55212EB6F70D927230F73D515 /* Pods-FoggyExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoggyExample.release.xcconfig"; sourceTree = "<group>"; };
+		4A9D2766F963F0AF41E30A24A10C54C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5181F952F47A3C06C577AD38E6E83D02 /* FoggyColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoggyColors-umbrella.h"; sourceTree = "<group>"; };
+		6B5E80F4770BCBAB07579CFBA1215F77 /* PointRandomization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointRandomization.swift; path = Sources/FoggyColors/PointRandomization.swift; sourceTree = "<group>"; };
+		6B9B9D3AD31CC3E8B08E2E5C1DD8A3A8 /* FoggyColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoggyColors-dummy.m"; sourceTree = "<group>"; };
+		6C9616D8A42766ECBB9E6BABDAB9A100 /* Pods-FoggyExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoggyExample.modulemap"; sourceTree = "<group>"; };
+		6CA70A960575199C0BD9C15719058B6F /* Pods-FoggyExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoggyExample-dummy.m"; sourceTree = "<group>"; };
+		7963021DA869C40C030A2C7B8E75E202 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7D64D621F9A2746BC2A0806AF6C64ADF /* Pods-FoggyExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoggyExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		834AB90A79786F1CC21F6C99D88D19B6 /* Pods-FoggyExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoggyExample-frameworks.sh"; sourceTree = "<group>"; };
+		8A5637BD71746103DA703FCE33814AA4 /* Pods-FoggyExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoggyExample.debug.xcconfig"; sourceTree = "<group>"; };
+		8C028DF95133C22BFF990E6470D5857B /* Pods-FoggyExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoggyExample"; path = Pods_FoggyExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91973E135FA551BDB8E5B5AEF7A0AF61 /* FoggyColors */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoggyColors; path = FoggyColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDEFA0FC9D880FCFBD0156A44A7FF67 /* FoggyColors.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FoggyColors.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4927249C006743AC955AB072ED1A700 /* FoggyColors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoggyColors.debug.xcconfig; sourceTree = "<group>"; };
+		BA40AFFCC0B1826A877EF88CA2353143 /* FoggyColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoggyColors.modulemap; sourceTree = "<group>"; };
+		D3F95C2134B2FFBF52B9D0707C6050F6 /* FoggyColorsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoggyColorsView.swift; path = Sources/FoggyColors/FoggyColorsView.swift; sourceTree = "<group>"; };
+		DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F084E02423612C80E52D87689F22847E /* FoggyColors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoggyColors.release.xcconfig; sourceTree = "<group>"; };
+		F3F392DF09B50D0AFCB45AD0A2A573BA /* FoggyColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoggyColors-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B33F075DA91208E2A6CC0A0B366AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED744F5D7BB7A484D4D7E9892886DDC /* Foundation.framework in Frameworks */,
+				F31E81A0E2FE6E9EEFC21153E6F44D96 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23B86216A080583216BB4AA312B1E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CC9731D33840D42BCDBE9343AEBE7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D11239749877A1FE1E8B8B38B59BFB4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA40AFFCC0B1826A877EF88CA2353143 /* FoggyColors.modulemap */,
+				6B9B9D3AD31CC3E8B08E2E5C1DD8A3A8 /* FoggyColors-dummy.m */,
+				33B029E13E0CCDE6B28CF5C41229B8CC /* FoggyColors-Info.plist */,
+				F3F392DF09B50D0AFCB45AD0A2A573BA /* FoggyColors-prefix.pch */,
+				5181F952F47A3C06C577AD38E6E83D02 /* FoggyColors-umbrella.h */,
+				A4927249C006743AC955AB072ED1A700 /* FoggyColors.debug.xcconfig */,
+				F084E02423612C80E52D87689F22847E /* FoggyColors.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FoggyColors";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				367350C0206CEB39C83981ABCAA29148 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B910C97B920DF0DA568ABD4421F4690 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				344D892AAE04088603F93A2575F43045 /* Pods-FoggyExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		344D892AAE04088603F93A2575F43045 /* Pods-FoggyExample */ = {
+			isa = PBXGroup;
+			children = (
+				6C9616D8A42766ECBB9E6BABDAB9A100 /* Pods-FoggyExample.modulemap */,
+				7D64D621F9A2746BC2A0806AF6C64ADF /* Pods-FoggyExample-acknowledgements.markdown */,
+				063019F77BA089B21988B31618C2EDCD /* Pods-FoggyExample-acknowledgements.plist */,
+				6CA70A960575199C0BD9C15719058B6F /* Pods-FoggyExample-dummy.m */,
+				834AB90A79786F1CC21F6C99D88D19B6 /* Pods-FoggyExample-frameworks.sh */,
+				269F76590C670559E1DCDEB096F14F49 /* Pods-FoggyExample-Info.plist */,
+				386B8CE45FF5EE5BB34F484D1B7D2C6A /* Pods-FoggyExample-umbrella.h */,
+				8A5637BD71746103DA703FCE33814AA4 /* Pods-FoggyExample.debug.xcconfig */,
+				40631DC55212EB6F70D927230F73D515 /* Pods-FoggyExample.release.xcconfig */,
+			);
+			name = "Pods-FoggyExample";
+			path = "Target Support Files/Pods-FoggyExample";
+			sourceTree = "<group>";
+		};
+		367350C0206CEB39C83981ABCAA29148 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */,
+				20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		467A9AA1202EF00D2ED90FC401A76012 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFFB53C7D959FF185B5D0A2C868682 /* FoggyColors */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6FFFFB53C7D959FF185B5D0A2C868682 /* FoggyColors */ = {
+			isa = PBXGroup;
+			children = (
+				D3F95C2134B2FFBF52B9D0707C6050F6 /* FoggyColorsView.swift */,
+				6B5E80F4770BCBAB07579CFBA1215F77 /* PointRandomization.swift */,
+				A62D9CAE6A28E1F7285F881B5B3A8A71 /* Pod */,
+				0D11239749877A1FE1E8B8B38B59BFB4 /* Support Files */,
+			);
+			name = FoggyColors;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9D9934414F6EB1A4E01DF80246F2BAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91973E135FA551BDB8E5B5AEF7A0AF61 /* FoggyColors */,
+				8C028DF95133C22BFF990E6470D5857B /* Pods-FoggyExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A62D9CAE6A28E1F7285F881B5B3A8A71 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9CDEFA0FC9D880FCFBD0156A44A7FF67 /* FoggyColors.podspec */,
+				4A9D2766F963F0AF41E30A24A10C54C8 /* LICENSE */,
+				7963021DA869C40C030A2C7B8E75E202 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				467A9AA1202EF00D2ED90FC401A76012 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9D9934414F6EB1A4E01DF80246F2BAE6 /* Products */,
+				2B910C97B920DF0DA568ABD4421F4690 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15663B812034DE8D8F9240A96FCB7642 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6375F90CA949D484B2097BB38431E1F1 /* Pods-FoggyExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F099D974BD4B26ECA67DCEE4AC12894D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EE0A81893A67383B9CCC24656B39C8 /* FoggyColors-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DCBD19BF21A7278AF012337A75E935B /* Pods-FoggyExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F837934DC2B0BEBEB1240E87F9CCD0F7 /* Build configuration list for PBXNativeTarget "Pods-FoggyExample" */;
+			buildPhases = (
+				15663B812034DE8D8F9240A96FCB7642 /* Headers */,
+				42A0A29D980D5492057310A0570A2B25 /* Sources */,
+				D23B86216A080583216BB4AA312B1E67 /* Frameworks */,
+				49225B3778631945BB64DD5E1E982DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F224D42A07C09D5F55DB691DAD043F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoggyExample";
+			productName = Pods_FoggyExample;
+			productReference = 8C028DF95133C22BFF990E6470D5857B /* Pods-FoggyExample */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C338B923167BD9A90D04157F31BA511 /* FoggyColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4C08F2D593C3C919CA69BE61542E04 /* Build configuration list for PBXNativeTarget "FoggyColors" */;
+			buildPhases = (
+				F099D974BD4B26ECA67DCEE4AC12894D /* Headers */,
+				870B53518F0D23C407032ED89E638072 /* Sources */,
+				65B33F075DA91208E2A6CC0A0B366AEF /* Frameworks */,
+				41B80E4B7D9E7C91C2C0ED7CAF129D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoggyColors;
+			productName = FoggyColors;
+			productReference = 91973E135FA551BDB8E5B5AEF7A0AF61 /* FoggyColors */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9D9934414F6EB1A4E01DF80246F2BAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C338B923167BD9A90D04157F31BA511 /* FoggyColors */,
+				1DCBD19BF21A7278AF012337A75E935B /* Pods-FoggyExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41B80E4B7D9E7C91C2C0ED7CAF129D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49225B3778631945BB64DD5E1E982DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A0A29D980D5492057310A0570A2B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD37F23C79D2FB759236A840B8B0AEAF /* Pods-FoggyExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870B53518F0D23C407032ED89E638072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE1CD8E1791C46E1C920C3970706070 /* FoggyColors-dummy.m in Sources */,
+				D2D1E5071A3A5BCEF7CDF6DCCF948BF2 /* FoggyColorsView.swift in Sources */,
+				C9709C791BE29186A277C3DEDB82EC07 /* PointRandomization.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F224D42A07C09D5F55DB691DAD043F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoggyColors;
+			target = 3C338B923167BD9A90D04157F31BA511 /* FoggyColors */;
+			targetProxy = 21344DE58C176B6D7D3051DE9FEC46E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		251F1EF1077221BE1C8ABCD1ED6DB088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5637BD71746103DA703FCE33814AA4 /* Pods-FoggyExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoggyExample/Pods-FoggyExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoggyExample/Pods-FoggyExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7CFFF305C54C9C3D9B925E74B5C880E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40631DC55212EB6F70D927230F73D515 /* Pods-FoggyExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoggyExample/Pods-FoggyExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoggyExample/Pods-FoggyExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBD7EDB2978A0A1B40A850600EDFE71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F084E02423612C80E52D87689F22847E /* FoggyColors.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoggyColors/FoggyColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoggyColors/FoggyColors-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FoggyColors/FoggyColors.modulemap";
+				PRODUCT_MODULE_NAME = FoggyColors;
+				PRODUCT_NAME = FoggyColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D126F561373269BA9ABAE711CD7F1C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4927249C006743AC955AB072ED1A700 /* FoggyColors.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoggyColors/FoggyColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoggyColors/FoggyColors-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FoggyColors/FoggyColors.modulemap";
+				PRODUCT_MODULE_NAME = FoggyColors;
+				PRODUCT_NAME = FoggyColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4C08F2D593C3C919CA69BE61542E04 /* Build configuration list for PBXNativeTarget "FoggyColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D126F561373269BA9ABAE711CD7F1C5F /* Debug */,
+				CBD7EDB2978A0A1B40A850600EDFE71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F837934DC2B0BEBEB1240E87F9CCD0F7 /* Build configuration list for PBXNativeTarget "Pods-FoggyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251F1EF1077221BE1C8ABCD1ED6DB088 /* Debug */,
+				7CFFF305C54C9C3D9B925E74B5C880E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

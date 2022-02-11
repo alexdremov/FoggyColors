@@ -1,0 +1,16 @@
+PODS:
+  - FoggyColors (1.0.0)
+
+DEPENDENCIES:
+  - FoggyColors (from `./../`)
+
+EXTERNAL SOURCES:
+  FoggyColors:
+    :path: "./../"
+
+SPEC CHECKSUMS:
+  FoggyColors: 0c088fbb25b738bbe31a71176e0ff31573abd6c0
+
+PODFILE CHECKSUM: 3669402e1f422d8f6d74973cc98bb7ae405800ed
+
+COCOAPODS: 1.11.2

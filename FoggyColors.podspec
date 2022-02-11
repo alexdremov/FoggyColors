@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FoggyColors'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FoggyColors.'
+  s.version          = '1.0.0'
+  s.summary          = 'Beautiful randomly generated colored shapes on the background with SwiftUI'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SwiftUI View to generate blurred or foggy colors on the background. Animation is supported, so colors will move and morph.
                        DESC
 
-  s.homepage         = 'https://github.com/alexdremov/FoggyColors'
+  s.homepage         = 'https://github.com/AlexRoar/FoggyColors'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'alexdremov' => 'dremov.me@gmail.com' }
-  s.source           = { :git => 'https://github.com/alexdremov/FoggyColors.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AlexRoar/FoggyColors.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'FoggyColors/Classes/**/*'
+  s.ios.deployment_target = '14.0'
+  s.swift_version = '4.0'
+  
+  s.source_files = 'Sources/FoggyColors/**/*'
   
   # s.resource_bundles = {
   #   'FoggyColors' => ['FoggyColors/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'SwiftUI'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

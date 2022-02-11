@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Colorful",
+        "repositoryURL": "https://github.com/Lakr233/Colorful",
+        "state": {
+          "branch": "main",
+          "revision": "eb5a350aec759bd413615273cb6d64553aead4d5",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
