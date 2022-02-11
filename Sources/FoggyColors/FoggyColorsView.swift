@@ -15,7 +15,7 @@ public struct FoggyColorsView: View {
     private let numberShapes: Int
 
     private let timer = Timer
-        .publish(every: 5, on: .main, in: .common)
+        .publish(every: 5, on: .main, in: .commonModes)
         .autoconnect()
     
     var colors: [LinearGradient] = [
@@ -148,7 +148,8 @@ public struct FoggyColorsView: View {
         animation: Animation = Animation
             .interpolatingSpring(stiffness: 10, damping: 5)
             .speed(0.08),
-        numberShapes: Int = 8
+        numberShapes: Int = 8,
+        colors: [LinearGradient]? = nil
     ) {
         self.blurRadius = newBlurRadius
         self.opacity = globalOpacity
@@ -156,8 +157,15 @@ public struct FoggyColorsView: View {
         self.animation = animation
         self.numberShapes = numberShapes
         self.animated = animated
-        randomColors = [Int](repeating: 0, count: numberShapes).map{_ in Int.random(in: 0..<colors.count)}
+        if let colors = colors {
+            if colors.isEmpty {
+                fatalError("Colors array must not be empty")
+            }
+            self.colors = colors
+        }
+        randomColors = [Int](repeating: 0, count: numberShapes).map{_ in Int.random(in: 0..<self.colors.count)}
         randomShapes = [Int](repeating: 0, count: numberShapes).map{_ in Int.random(in: 0..<differentShapes)}
         _randomization = State(initialValue: [PointRandomization](repeating: .init(), count: numberShapes))
+        
     }
 }
