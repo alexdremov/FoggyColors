@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/FoggyColors.svg?style=flat)](https://cocoapods.org/pods/FoggyColors)
 [![Platform](https://img.shields.io/cocoapods/p/FoggyColors.svg?style=flat)](https://cocoapods.org/pods/FoggyColors)
 
+<img src="https://github.com/AlexRoar/FoggyColors/raw/main/Assets/ExampleDemo.png">
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
