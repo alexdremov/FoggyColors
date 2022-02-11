@@ -10,6 +10,24 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```swift
+import SwiftUI
+import FoggyColors
+
+struct ContentView: View {
+    var body: some View {
+            FoggyColorsView(
+              blurRadius: 64,
+              globalOpacity: 0.6,
+              elementOpacity: 0.4,
+              animated: true,
+              numberShapes: 5
+            )
+            .ignoresSafeArea()
+    }
+}
+```
+
 ## Installation
 ### CocoaPods
 FoggyColors is available through [CocoaPods](https://cocoapods.org). To install
