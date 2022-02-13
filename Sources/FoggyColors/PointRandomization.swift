@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct PointRandomization: Equatable, Hashable {
     public private(set) var width: CGFloat = 0
