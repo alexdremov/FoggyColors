@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FoggyColors'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'Beautiful randomly generated colored shapes on the background with SwiftUI'
 
 # This description is used to generate tags and improve search results.
